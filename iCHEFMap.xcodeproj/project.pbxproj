@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31634124A3F861EF85572DC7 /* Pods_iCHEFMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E46804EE1FB2EEA42C19B8 /* Pods_iCHEFMap.framework */; };
+		935BE53D1DB92327003BE240 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BE53C1DB92327003BE240 /* Constant.swift */; };
 		9388BB071DB90093007A3ED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388BB061DB90093007A3ED0 /* AppDelegate.swift */; };
 		9388BB091DB90093007A3ED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388BB081DB90093007A3ED0 /* ViewController.swift */; };
 		9388BB0C1DB90094007A3ED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9388BB0A1DB90094007A3ED0 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		286BDD72CBC48E28EEE7A648 /* Pods-iCHEFMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCHEFMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCHEFMap/Pods-iCHEFMap.debug.xcconfig"; sourceTree = "<group>"; };
 		39E46804EE1FB2EEA42C19B8 /* Pods_iCHEFMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCHEFMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		935BE53C1DB92327003BE240 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		9388BB031DB90093007A3ED0 /* iCHEFMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCHEFMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9388BB061DB90093007A3ED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9388BB081DB90093007A3ED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		935BE53B1DB92308003BE240 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				935BE53C1DB92327003BE240 /* Constant.swift */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
 		9388BAFA1DB90093007A3ED0 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		9388BB051DB90093007A3ED0 /* iCHEFMap */ = {
 			isa = PBXGroup;
 			children = (
+				935BE53B1DB92308003BE240 /* SupportFiles */,
 				9388BB061DB90093007A3ED0 /* AppDelegate.swift */,
 				9388BB081DB90093007A3ED0 /* ViewController.swift */,
 				9388BB0A1DB90094007A3ED0 /* Main.storyboard */,
@@ -175,7 +186,7 @@
 				TargetAttributes = {
 					9388BB021DB90093007A3ED0 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 8949B26WW7;
+						DevelopmentTeam = U39PG6K835;
 						ProvisioningStyle = Automatic;
 					};
 					9388BB161DB90094007A3ED0 = {
@@ -280,6 +291,7 @@
 			files = (
 				9388BB091DB90093007A3ED0 /* ViewController.swift in Sources */,
 				9388BB071DB90093007A3ED0 /* AppDelegate.swift in Sources */,
+				935BE53D1DB92327003BE240 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,11 +433,11 @@
 			baseConfigurationReference = 286BDD72CBC48E28EEE7A648 /* Pods-iCHEFMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8949B26WW7;
+				DEVELOPMENT_TEAM = U39PG6K835;
 				INFOPLIST_FILE = iCHEFMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ichef.iCHEFMap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mission.iCHEFMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -436,11 +448,11 @@
 			baseConfigurationReference = C95184F2BD778A06E42C0753 /* Pods-iCHEFMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8949B26WW7;
+				DEVELOPMENT_TEAM = U39PG6K835;
 				INFOPLIST_FILE = iCHEFMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ichef.iCHEFMap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mission.iCHEFMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
