@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31634124A3F861EF85572DC7 /* Pods_iCHEFMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E46804EE1FB2EEA42C19B8 /* Pods_iCHEFMap.framework */; };
+		9388BB071DB90093007A3ED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388BB061DB90093007A3ED0 /* AppDelegate.swift */; };
+		9388BB091DB90093007A3ED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388BB081DB90093007A3ED0 /* ViewController.swift */; };
+		9388BB0C1DB90094007A3ED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9388BB0A1DB90094007A3ED0 /* Main.storyboard */; };
+		9388BB0E1DB90094007A3ED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9388BB0D1DB90094007A3ED0 /* Assets.xcassets */; };
+		9388BB111DB90094007A3ED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9388BB0F1DB90094007A3ED0 /* LaunchScreen.storyboard */; };
+		9388BB1C1DB90094007A3ED0 /* iCHEFMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388BB1B1DB90094007A3ED0 /* iCHEFMapTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9388BB181DB90094007A3ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9388BAFB1DB90093007A3ED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9388BB021DB90093007A3ED0;
+			remoteInfo = iCHEFMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		286BDD72CBC48E28EEE7A648 /* Pods-iCHEFMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCHEFMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCHEFMap/Pods-iCHEFMap.debug.xcconfig"; sourceTree = "<group>"; };
+		39E46804EE1FB2EEA42C19B8 /* Pods_iCHEFMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCHEFMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9388BB031DB90093007A3ED0 /* iCHEFMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCHEFMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9388BB061DB90093007A3ED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9388BB081DB90093007A3ED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9388BB0B1DB90094007A3ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9388BB0D1DB90094007A3ED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9388BB101DB90094007A3ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9388BB121DB90094007A3ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9388BB171DB90094007A3ED0 /* iCHEFMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCHEFMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9388BB1B1DB90094007A3ED0 /* iCHEFMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCHEFMapTests.swift; sourceTree = "<group>"; };
+		9388BB1D1DB90094007A3ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95184F2BD778A06E42C0753 /* Pods-iCHEFMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCHEFMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-iCHEFMap/Pods-iCHEFMap.release.xcconfig"; sourceTree = "<group>"; };
+		DE4499730ECC7FD13D8565C3 /* Pods_iCHEFMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCHEFMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9388BB001DB90093007A3ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31634124A3F861EF85572DC7 /* Pods_iCHEFMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9388BB141DB90094007A3ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B9D1859BB470FE4E41BC323 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				286BDD72CBC48E28EEE7A648 /* Pods-iCHEFMap.debug.xcconfig */,
+				C95184F2BD778A06E42C0753 /* Pods-iCHEFMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3CC8AF89A5C2C3DDCDE24D50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39E46804EE1FB2EEA42C19B8 /* Pods_iCHEFMap.framework */,
+				DE4499730ECC7FD13D8565C3 /* Pods_iCHEFMapTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9388BAFA1DB90093007A3ED0 = {
+			isa = PBXGroup;
+			children = (
+				9388BB051DB90093007A3ED0 /* iCHEFMap */,
+				9388BB1A1DB90094007A3ED0 /* iCHEFMapTests */,
+				9388BB041DB90093007A3ED0 /* Products */,
+				2B9D1859BB470FE4E41BC323 /* Pods */,
+				3CC8AF89A5C2C3DDCDE24D50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9388BB041DB90093007A3ED0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9388BB031DB90093007A3ED0 /* iCHEFMap.app */,
+				9388BB171DB90094007A3ED0 /* iCHEFMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9388BB051DB90093007A3ED0 /* iCHEFMap */ = {
+			isa = PBXGroup;
+			children = (
+				9388BB061DB90093007A3ED0 /* AppDelegate.swift */,
+				9388BB081DB90093007A3ED0 /* ViewController.swift */,
+				9388BB0A1DB90094007A3ED0 /* Main.storyboard */,
+				9388BB0D1DB90094007A3ED0 /* Assets.xcassets */,
+				9388BB0F1DB90094007A3ED0 /* LaunchScreen.storyboard */,
+				9388BB121DB90094007A3ED0 /* Info.plist */,
+			);
+			path = iCHEFMap;
+			sourceTree = "<group>";
+		};
+		9388BB1A1DB90094007A3ED0 /* iCHEFMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				9388BB1B1DB90094007A3ED0 /* iCHEFMapTests.swift */,
+				9388BB1D1DB90094007A3ED0 /* Info.plist */,
+			);
+			path = iCHEFMapTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9388BB021DB90093007A3ED0 /* iCHEFMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9388BB201DB90094007A3ED0 /* Build configuration list for PBXNativeTarget "iCHEFMap" */;
+			buildPhases = (
+				3B2F834756C88ADAB58A1605 /* [CP] Check Pods Manifest.lock */,
+				9388BAFF1DB90093007A3ED0 /* Sources */,
+				9388BB001DB90093007A3ED0 /* Frameworks */,
+				9388BB011DB90093007A3ED0 /* Resources */,
+				1BC909E0B37F2A5BE4154E82 /* [CP] Embed Pods Frameworks */,
+				805DAAD3B77F478F78A1D3CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCHEFMap;
+			productName = iCHEFMap;
+			productReference = 9388BB031DB90093007A3ED0 /* iCHEFMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9388BB161DB90094007A3ED0 /* iCHEFMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9388BB231DB90094007A3ED0 /* Build configuration list for PBXNativeTarget "iCHEFMapTests" */;
+			buildPhases = (
+				9388BB131DB90094007A3ED0 /* Sources */,
+				9388BB141DB90094007A3ED0 /* Frameworks */,
+				9388BB151DB90094007A3ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9388BB191DB90094007A3ED0 /* PBXTargetDependency */,
+			);
+			name = iCHEFMapTests;
+			productName = iCHEFMapTests;
+			productReference = 9388BB171DB90094007A3ED0 /* iCHEFMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9388BAFB1DB90093007A3ED0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ichef;
+				TargetAttributes = {
+					9388BB021DB90093007A3ED0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8949B26WW7;
+						ProvisioningStyle = Automatic;
+					};
+					9388BB161DB90094007A3ED0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8949B26WW7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9388BB021DB90093007A3ED0;
+					};
+				};
+			};
+			buildConfigurationList = 9388BAFE1DB90093007A3ED0 /* Build configuration list for PBXProject "iCHEFMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9388BAFA1DB90093007A3ED0;
+			productRefGroup = 9388BB041DB90093007A3ED0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9388BB021DB90093007A3ED0 /* iCHEFMap */,
+				9388BB161DB90094007A3ED0 /* iCHEFMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9388BB011DB90093007A3ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9388BB111DB90094007A3ED0 /* LaunchScreen.storyboard in Resources */,
+				9388BB0E1DB90094007A3ED0 /* Assets.xcassets in Resources */,
+				9388BB0C1DB90094007A3ED0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9388BB151DB90094007A3ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BC909E0B37F2A5BE4154E82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iCHEFMap/Pods-iCHEFMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B2F834756C88ADAB58A1605 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		805DAAD3B77F478F78A1D3CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iCHEFMap/Pods-iCHEFMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9388BAFF1DB90093007A3ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9388BB091DB90093007A3ED0 /* ViewController.swift in Sources */,
+				9388BB071DB90093007A3ED0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9388BB131DB90094007A3ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9388BB1C1DB90094007A3ED0 /* iCHEFMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9388BB191DB90094007A3ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9388BB021DB90093007A3ED0 /* iCHEFMap */;
+			targetProxy = 9388BB181DB90094007A3ED0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9388BB0A1DB90094007A3ED0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9388BB0B1DB90094007A3ED0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9388BB0F1DB90094007A3ED0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9388BB101DB90094007A3ED0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9388BB1E1DB90094007A3ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9388BB1F1DB90094007A3ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9388BB211DB90094007A3ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286BDD72CBC48E28EEE7A648 /* Pods-iCHEFMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8949B26WW7;
+				INFOPLIST_FILE = iCHEFMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ichef.iCHEFMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9388BB221DB90094007A3ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C95184F2BD778A06E42C0753 /* Pods-iCHEFMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8949B26WW7;
+				INFOPLIST_FILE = iCHEFMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ichef.iCHEFMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9388BB241DB90094007A3ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8949B26WW7;
+				INFOPLIST_FILE = iCHEFMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ichef.iCHEFMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCHEFMap.app/iCHEFMap";
+			};
+			name = Debug;
+		};
+		9388BB251DB90094007A3ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8949B26WW7;
+				INFOPLIST_FILE = iCHEFMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ichef.iCHEFMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCHEFMap.app/iCHEFMap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9388BAFE1DB90093007A3ED0 /* Build configuration list for PBXProject "iCHEFMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9388BB1E1DB90094007A3ED0 /* Debug */,
+				9388BB1F1DB90094007A3ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9388BB201DB90094007A3ED0 /* Build configuration list for PBXNativeTarget "iCHEFMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9388BB211DB90094007A3ED0 /* Debug */,
+				9388BB221DB90094007A3ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9388BB231DB90094007A3ED0 /* Build configuration list for PBXNativeTarget "iCHEFMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9388BB241DB90094007A3ED0 /* Debug */,
+				9388BB251DB90094007A3ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9388BAFB1DB90093007A3ED0 /* Project object */;
+}

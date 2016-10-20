@@ -1,0 +1,6 @@
+framework module Pods_iCHEFMap {
+  umbrella header "Pods-iCHEFMap-umbrella.h"
+
+  export *
+  module * { export * }
+}
