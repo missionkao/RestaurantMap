@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02A1C0AE1DBA0E1000710EFE /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1C0AD1DBA0E1000710EFE /* MapViewModel.swift */; };
 		31634124A3F861EF85572DC7 /* Pods_iCHEFMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E46804EE1FB2EEA42C19B8 /* Pods_iCHEFMap.framework */; };
 		935BE53D1DB92327003BE240 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BE53C1DB92327003BE240 /* Constant.swift */; };
 		9388BB071DB90093007A3ED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388BB061DB90093007A3ED0 /* AppDelegate.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02A1C0AD1DBA0E1000710EFE /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		286BDD72CBC48E28EEE7A648 /* Pods-iCHEFMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCHEFMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCHEFMap/Pods-iCHEFMap.debug.xcconfig"; sourceTree = "<group>"; };
 		39E46804EE1FB2EEA42C19B8 /* Pods_iCHEFMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCHEFMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		935BE53C1DB92327003BE240 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				935BE53B1DB92308003BE240 /* SupportFiles */,
 				9388BB061DB90093007A3ED0 /* AppDelegate.swift */,
 				9388BB081DB90093007A3ED0 /* ViewController.swift */,
+				02A1C0AD1DBA0E1000710EFE /* MapViewModel.swift */,
 				9388BB0A1DB90094007A3ED0 /* Main.storyboard */,
 				9388BB0D1DB90094007A3ED0 /* Assets.xcassets */,
 				9388BB0F1DB90094007A3ED0 /* LaunchScreen.storyboard */,
@@ -264,7 +267,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		805DAAD3B77F478F78A1D3CC /* [CP] Copy Pods Resources */ = {
@@ -292,6 +295,7 @@
 				9388BB091DB90093007A3ED0 /* ViewController.swift in Sources */,
 				9388BB071DB90093007A3ED0 /* AppDelegate.swift in Sources */,
 				935BE53D1DB92327003BE240 /* Constant.swift in Sources */,
+				02A1C0AE1DBA0E1000710EFE /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
