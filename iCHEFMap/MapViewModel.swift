@@ -30,16 +30,15 @@ class MapViewModel: NSObject {
         let json = JSON(data: data)
         for (_,subJson):(String, JSON) in json {
             let restaurant = Restaurant()
-            restaurant.id = subJson["id"].int!
-            print(restaurant.id)
-            restaurant.storeID = subJson["store_id"].string!
-            restaurant.company = subJson["company"].string!
-            restaurant.name = subJson["name"].string!
-            restaurant.county = subJson["county"].string!
-            restaurant.latitude = subJson["lat"].double!
-            restaurant.longitude = subJson["lng"].double!
-            restaurant.address = subJson["address"].string!
-            restaurant.status = subJson["status"].string!
+            restaurant.id = subJson["id"].intValue
+            restaurant.storeID = subJson["store_id"].stringValue
+            restaurant.company = subJson["company"].stringValue
+            restaurant.name = subJson["name"].stringValue
+            restaurant.county = subJson["county"].stringValue
+            restaurant.latitude = subJson["lat"].doubleValue
+            restaurant.longitude = subJson["lng"].doubleValue
+            restaurant.address = subJson["address"].stringValue
+            restaurant.status = subJson["status"].stringValue
             try! realm.write {
                 realm.add(restaurant, update: true)
             }

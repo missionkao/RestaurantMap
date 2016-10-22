@@ -9,6 +9,7 @@
 import UIKit
 import GoogleMaps
 import CoreLocation
+import RealmSwift
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
@@ -23,11 +24,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         self.locationManager.delegate = self
         self.locationManager.requestWhenInUseAuthorization()
-//        let marker = GMSMarker()
-//        marker.position = CLLocationCoordinate2DMake(-33.86, 151.20)
-//        marker.title = "Sydney"
-//        marker.snippet = "Australia"
-//        marker.map = mapView
+        
+        let realm = try! Realm()
+        let restaurants = realm.objects(Restaurant.self)
+        for r in restaurants {
+            let maker = GMSMarker(position: CLLocationCoordinate2DMake(r.latitude, r.longitude))
+            maker.title = r.name
+            maker.snippet = r.address
+            maker.map = mapView
+        }
     }
 
     override func didReceiveMemoryWarning() {
