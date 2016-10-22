@@ -16,6 +16,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     private var currentLocation: CLLocation?
     private let locationManager = CLLocationManager()
+    let mapViewModel = MapViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()

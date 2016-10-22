@@ -16,6 +16,8 @@
 		9388BB0E1DB90094007A3ED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9388BB0D1DB90094007A3ED0 /* Assets.xcassets */; };
 		9388BB111DB90094007A3ED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9388BB0F1DB90094007A3ED0 /* LaunchScreen.storyboard */; };
 		9388BB1C1DB90094007A3ED0 /* iCHEFMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388BB1B1DB90094007A3ED0 /* iCHEFMapTests.swift */; };
+		938F3DDC1DBB7F1F0038A662 /* ichef.json in Resources */ = {isa = PBXBuildFile; fileRef = 938F3DDB1DBB7F1F0038A662 /* ichef.json */; };
+		938F3DDF1DBB840B0038A662 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938F3DDE1DBB840B0038A662 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		9388BB171DB90094007A3ED0 /* iCHEFMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCHEFMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9388BB1B1DB90094007A3ED0 /* iCHEFMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCHEFMapTests.swift; sourceTree = "<group>"; };
 		9388BB1D1DB90094007A3ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938F3DDB1DBB7F1F0038A662 /* ichef.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ichef.json; path = ../../../../Downloads/ichef.json; sourceTree = "<group>"; };
+		938F3DDE1DBB840B0038A662 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		C95184F2BD778A06E42C0753 /* Pods-iCHEFMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCHEFMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-iCHEFMap/Pods-iCHEFMap.release.xcconfig"; sourceTree = "<group>"; };
 		DE4499730ECC7FD13D8565C3 /* Pods_iCHEFMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCHEFMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -87,6 +91,7 @@
 		935BE53B1DB92308003BE240 /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
+				938F3DDB1DBB7F1F0038A662 /* ichef.json */,
 				935BE53C1DB92327003BE240 /* Constant.swift */,
 			);
 			name = SupportFiles;
@@ -115,6 +120,7 @@
 		9388BB051DB90093007A3ED0 /* iCHEFMap */ = {
 			isa = PBXGroup;
 			children = (
+				938F3DDD1DBB83DB0038A662 /* RealmModel */,
 				935BE53B1DB92308003BE240 /* SupportFiles */,
 				9388BB061DB90093007A3ED0 /* AppDelegate.swift */,
 				9388BB081DB90093007A3ED0 /* ViewController.swift */,
@@ -134,6 +140,14 @@
 				9388BB1D1DB90094007A3ED0 /* Info.plist */,
 			);
 			path = iCHEFMapTests;
+			sourceTree = "<group>";
+		};
+		938F3DDD1DBB83DB0038A662 /* RealmModel */ = {
+			isa = PBXGroup;
+			children = (
+				938F3DDE1DBB840B0038A662 /* Restaurant.swift */,
+			);
+			name = RealmModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9388BB111DB90094007A3ED0 /* LaunchScreen.storyboard in Resources */,
+				938F3DDC1DBB7F1F0038A662 /* ichef.json in Resources */,
 				9388BB0E1DB90094007A3ED0 /* Assets.xcassets in Resources */,
 				9388BB0C1DB90094007A3ED0 /* Main.storyboard in Resources */,
 			);
@@ -267,7 +282,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		805DAAD3B77F478F78A1D3CC /* [CP] Copy Pods Resources */ = {
@@ -292,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938F3DDF1DBB840B0038A662 /* Restaurant.swift in Sources */,
 				9388BB091DB90093007A3ED0 /* ViewController.swift in Sources */,
 				9388BB071DB90093007A3ED0 /* AppDelegate.swift in Sources */,
 				935BE53D1DB92327003BE240 /* Constant.swift in Sources */,
